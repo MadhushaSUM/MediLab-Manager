@@ -19,3 +19,6 @@ Standard calculations are performed and relevant fields of the report are filled
 According to pre-defined ranges, tests are flagged HIGH, or LOW.
 
 Two or more reports can be merged into a single paper for printing. 
+
+![MediLab Manager](https://github.com/MadhushaSUM/MediLab-Manager/assets/67388969/e0c74b48-65af-4fd9-8bfd-c1e656153492)
+
