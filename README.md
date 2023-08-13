@@ -22,3 +22,6 @@ Two or more reports can be merged into a single paper for printing.
 
 ![MediLab Manager](https://github.com/MadhushaSUM/MediLab-Manager/assets/67388969/e0c74b48-65af-4fd9-8bfd-c1e656153492)
 
+![MediLab Manager 2](https://github.com/MadhushaSUM/MediLab-Manager/assets/67388969/31b0f714-eb31-4798-8448-502110b41689)
+
+
