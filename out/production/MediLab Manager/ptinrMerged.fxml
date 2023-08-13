@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="50.0" layoutY="60.0" text="Specimen Examined : Blood" underline="true" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="60.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="96.0" text="Prothrombin Time :" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="96.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="128.0" text="Test : " AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="128.0" />
+      <Label layoutX="50.0" layoutY="147.0" text="Control :" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="147.0" />
+      <Label layoutX="50.0" layoutY="179.0" text="I.N.R. :" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="179.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="218.0" text="I.N.R. derived using the I.S. Index " AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="218.0" />
+      <Label layoutX="50.0" layoutY="237.0" text="thrombokinase used to perform the test. Relevant  MNPT. for the particular batch of" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="237.0" />
+      <Label fx:id="lblTest" alignment="CENTER_RIGHT" layoutX="112.0" layoutY="126.0" prefHeight="21.0" prefWidth="61.0" text="value" AnchorPane.leftAnchor="112.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblControl" alignment="CENTER_RIGHT" layoutX="112.0" layoutY="145.0" prefHeight="21.0" prefWidth="61.0" text="value" AnchorPane.leftAnchor="112.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblINR" alignment="CENTER_RIGHT" layoutX="112.0" layoutY="177.0" prefHeight="21.0" prefWidth="61.0" text="value">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="4.0" layoutX="42.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="4.0" AnchorPane.leftAnchor="42.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="4.0" layoutX="42.0" layoutY="185.0" stroke="BLACK" strokeType="INSIDE" width="4.0" AnchorPane.leftAnchor="42.0" />
+      <Label fx:id="lblValue1" alignment="CENTER" layoutX="228.0" layoutY="216.0" prefHeight="21.0" prefWidth="69.0" text="value">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="218.0" prefHeight="17.0" prefWidth="257.0" text="which is given for the particular batch of " AnchorPane.rightAnchor="30.0" />
+      <Label layoutX="50.0" layoutY="256.0" prefHeight="17.0" prefWidth="164.0" text="thrombokinase is" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="256.0" />
+      <Label fx:id="lblValue2" alignment="CENTER" layoutX="146.0" layoutY="254.0" prefHeight="21.0" prefWidth="69.0" text="value">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="256.0" prefHeight="17.0" prefWidth="46.0" text="seconds." />
+      <Label layoutX="178.0" layoutY="128.0" text="seconds" />
+      <Label layoutX="180.0" layoutY="147.0" text="seconds" />
+      <Label fx:id="lblComments" alignment="TOP_LEFT" layoutX="50.0" layoutY="305.0" prefHeight="146.0" prefWidth="484.0" text="value">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ESR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="156.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="10.0" layoutY="100.0" text="RANDOM BLOOD SUGAR" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRBS" alignment="CENTER_RIGHT" layoutX="300.0" layoutY="97.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="220.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="98.0" text="mg/dl" AnchorPane.leftAnchor="400.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="63.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="63.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="86.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="86.0" />
+      <Label layoutX="10.0" layoutY="66.0" text="TEST" AnchorPane.leftAnchor="10.0" />
+      <Label layoutX="314.0" layoutY="66.0" text="RESULT" />
+      <Label layoutX="400.0" layoutY="66.0" text="UNITS" />
+      <Label layoutX="483.0" layoutY="66.0" text="FLAG" AnchorPane.rightAnchor="20.0" />
+      <Label fx:id="flag1" layoutX="532.0" layoutY="98.0" text="flag" AnchorPane.rightAnchor="22.0" />
+      <Label fx:id="lblTime" layoutX="10.0" layoutY="118.0" prefHeight="21.0" prefWidth="226.0" text="value" AnchorPane.leftAnchor="10.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="19.0" prefHeight="20.0" prefWidth="169.0" text="RANDOM BLOOD SUGAR" AnchorPane.leftAnchor="202.0" AnchorPane.rightAnchor="203.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RHE_FACTORS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblHCG" alignment="CENTER" layoutX="294.0" layoutY="84.0" prefHeight="21.0" prefWidth="101.0" text="value" AnchorPane.leftAnchor="294.0" AnchorPane.topAnchor="84.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="87.0" text="URINE FOR HCG :" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="87.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="564.0" layoutX="5.5" layoutY="50.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="50.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="73.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="73.0" />
+      <Label layoutX="66.0" layoutY="54.0" text="TEST" AnchorPane.topAnchor="54.0" />
+      <Label layoutX="324.0" layoutY="54.0" text="RESULT" AnchorPane.topAnchor="54.0" />
+      <Label layoutX="50.0" layoutY="102.0" text="(Strip Method)" />
+      <Label layoutX="270.0" layoutY="6.0" prefHeight="20.0" prefWidth="33.0" text="HCG" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="271.0" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

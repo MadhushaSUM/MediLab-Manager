@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="SURICSPHOSPHORUS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="159.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="25.0" layoutY="8.0" text="S. Uric acid" underline="true" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="8.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="73.0" text="mg/dl." AnchorPane.topAnchor="73.0" />
+      <Label layoutX="25.0" layoutY="73.0" text="S. Phosphorus" underline="true" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="73.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="8.0" text="mg/dl." AnchorPane.topAnchor="8.0" />
+      <Label fx:id="lblUricAcid" alignment="CENTER_RIGHT" layoutX="149.0" layoutY="7.0" prefHeight="21.0" prefWidth="63.0" text="value">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPhos" alignment="CENTER_RIGHT" layoutX="149.0" layoutY="72.0" prefHeight="21.0" prefWidth="63.0" text="value">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="4.0" layoutX="63.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="4.0" AnchorPane.leftAnchor="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="4.0" layoutX="64.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="4.0" AnchorPane.leftAnchor="60.0" />
+      <Label layoutX="278.0" layoutY="8.0" text="Adults :                            mg/dl." />
+      <Label layoutX="277.0" layoutY="25.0" text="Children                   yrs :                           mg/dl." />
+      <Label layoutX="278.0" layoutY="73.0" text="Adult Male :                           mg/dl." />
+      <Label layoutX="278.0" layoutY="89.0" text="Adult Female :                           mg/dl." />
+      <Label layoutX="278.0" layoutY="105.0" text="Children                   yrs :                           mg/dl." />
+      <Label fx:id="ref1" alignment="CENTER" layoutX="319.0" layoutY="8.0" prefHeight="17.0" prefWidth="90.0" text="val" />
+      <Label fx:id="ref2" alignment="CENTER" layoutX="404.0" layoutY="25.0" prefHeight="17.0" prefWidth="90.0" text="val" />
+      <Label fx:id="ref3" alignment="CENTER" layoutX="322.0" layoutY="26.0" prefHeight="17.0" prefWidth="60.0" text="val" />
+      <Label fx:id="ref4" alignment="CENTER" layoutX="341.0" layoutY="73.0" prefHeight="17.0" prefWidth="90.0" text="val" />
+      <Label fx:id="ref5" alignment="CENTER" layoutX="353.0" layoutY="89.0" prefHeight="17.0" prefWidth="90.0" text="val" />
+      <Label fx:id="ref6" alignment="CENTER" layoutX="405.0" layoutY="105.0" prefHeight="17.0" prefWidth="90.0" text="val" />
+      <Label fx:id="ref7" alignment="CENTER" layoutX="323.0" layoutY="105.0" prefHeight="17.0" prefWidth="60.0" text="val" />
+   </children>
+</AnchorPane>

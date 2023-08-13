@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ESR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="564.0" layoutX="50.5" layoutY="100.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="100.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="124.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="124.0" />
+      <Label layoutX="16.0" layoutY="104.0" text="TEST" />
+      <Label layoutX="277.0" layoutY="104.0" text="RESULT" />
+      <Label layoutX="354.0" layoutY="104.0" text="UNITS" />
+      <Label layoutX="424.0" layoutY="104.0" text="REF. RANGE" />
+      <Label alignment="CENTER_RIGHT" layoutX="520.0" layoutY="104.0" text="FLAG" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="212.0" layoutY="60.0" text="LIVER FUNCTION TEST" AnchorPane.leftAnchor="212.0" AnchorPane.rightAnchor="213.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="174.0" text="Serum Alkaline Phosphatase" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="174.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="174.0" text="U/L" AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="174.0" />
+      <Label fx:id="lblSAlkPhos" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="172.0" prefHeight="21.0" prefWidth="69.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="172.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="419.0" layoutY="174.0" text="40 - 120" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="174.0" />
+      <Label layoutX="20.0" layoutY="134.0" text="AST / SGOT" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="134.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="134.0" text="U/L" AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="134.0" />
+      <Label fx:id="lblOT" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="132.0" prefHeight="21.0" prefWidth="69.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="132.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="419.0" layoutY="134.0" text="07 - 40" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="134.0" />
+      <Label layoutX="20.0" layoutY="154.0" text="ALT / SGPT" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="154.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="154.0" text="U/L" AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="154.0" />
+      <Label fx:id="lblPT" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="152.0" prefHeight="21.0" prefWidth="69.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="152.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="419.0" layoutY="154.0" text="07 - 35" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="154.0" />
+      <Label layoutX="20.0" layoutY="194.0" text="Total Bilirubin" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="194.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="349.0" layoutY="194.0" text="mg/dl" AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="194.0" />
+      <Label fx:id="lblTotalBil" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="195.0" prefHeight="15.0" prefWidth="70.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="195.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="214.0" text="Direct Bilirubin" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="214.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="234.0" text="Indirect Bilirubin" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="234.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDirBil" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="214.0" prefHeight="15.0" prefWidth="70.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="214.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblIndirBil" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="234.0" prefHeight="15.0" prefWidth="70.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="234.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="349.0" layoutY="214.0" text="mg/dl" AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="214.0" />
+      <Label layoutX="349.0" layoutY="234.0" text="mg/dl" AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="234.0" />
+      <Label alignment="CENTER" layoutX="419.0" layoutY="194.0" prefHeight="17.0" prefWidth="64.0" text="0.3 - 1.2" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="194.0" />
+      <Label alignment="CENTER" layoutX="419.0" layoutY="214.0" text="0.1 - 0.5" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="214.0" />
+      <Label alignment="CENTER" layoutX="419.0" layoutY="234.0" text="0.2 - 0.7" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="234.0" />
+      <Label fx:id="lblTotalPro" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="252.0" prefHeight="21.0" prefWidth="64.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="252.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="254.0" text="g/dl." AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="254.0" />
+      <Label layoutX="20.0" layoutY="274.0" text="Albumin " AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="274.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAlbu" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="272.0" prefHeight="21.0" prefWidth="64.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="272.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="274.0" text="g/dl." AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="274.0" />
+      <Label layoutX="20.0" layoutY="294.0" text="Globulin " AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="294.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="254.0" text="Total Proteins " AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="254.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="314.0" text="Alb. Glob. Ratio (A/G)" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="314.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblGlobu" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="292.0" prefHeight="21.0" prefWidth="64.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="292.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAGRatio" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="312.0" prefHeight="21.0" prefWidth="64.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="312.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="294.0" text="g/dl." AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="294.0" />
+      <Label alignment="CENTER" layoutX="419.0" layoutY="254.0" text="6.2 - 8.5" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="254.0" />
+      <Label alignment="CENTER" layoutX="419.0" layoutY="274.0" text="2.5 - 5.3" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="274.0" />
+      <Label alignment="CENTER" layoutX="419.0" layoutY="294.0" text="2.0 - 3.5" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="294.0" />
+      <Label fx:id="lblFlag7" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="254.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="254.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag8" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="272.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="272.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag9" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="292.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="292.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="334.0" text="GAMMA GT" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="334.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblGamma" alignment="CENTER_RIGHT" layoutX="248.0" layoutY="332.0" prefHeight="21.0" prefWidth="64.0" text="value" AnchorPane.leftAnchor="248.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="332.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="334.0" text="U/L" AnchorPane.rightAnchor="192.0" AnchorPane.topAnchor="334.0" />
+      <Label alignment="CENTER" layoutX="419.0" layoutY="334.0" text="10.0 - 50.0" AnchorPane.leftAnchor="419.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="334.0" />
+      <Label fx:id="lblFlag10" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="332.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="332.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag1" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="132.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="132.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag2" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="152.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="152.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag3" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="172.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="172.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag4" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="192.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="192.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag5" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="214.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="214.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag6" alignment="CENTER_RIGHT" layoutX="503.0" layoutY="234.0" prefHeight="21.0" prefWidth="64.0" text="flag" AnchorPane.leftAnchor="503.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="234.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

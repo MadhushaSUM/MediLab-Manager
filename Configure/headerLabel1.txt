@@ -1,0 +1,12 @@
+0.0
+25.0
+0.0
+null
+true
+true
+false
+Arial
+16.0
+CENTER
+Medical Laboratory Report
+false

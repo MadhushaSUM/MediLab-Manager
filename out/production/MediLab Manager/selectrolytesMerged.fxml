@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="SELECTROLYTES" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="215.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="212.0" layoutY="25.0" text="SERUM ELECTROLYTES" AnchorPane.leftAnchor="212.0" AnchorPane.rightAnchor="212.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="334.0" layoutY="105.0" text="(135 - 145 mEq/L )" AnchorPane.leftAnchor="334.0" AnchorPane.topAnchor="105.0" />
+      <Label layoutX="62.0" layoutY="108.0" text="SODIUM (Na    )" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="108.0">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="62.0" layoutY="126.0" text="POTASSIUM(K   )" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="126.0">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="114.0" layoutY="102.0" text="+" />
+      <Label layoutX="121.0" layoutY="120.0" text="+" />
+      <Label layoutX="278.0" layoutY="106.0" text="mEq/L" />
+      <Label layoutX="278.0" layoutY="124.0" text="mEq/L" />
+      <Label layoutX="334.0" layoutY="123.0" text="( 3.5 -  5.0 mEq/L )" AnchorPane.leftAnchor="334.0" AnchorPane.topAnchor="123.0" />
+      <Label fx:id="lblNa" alignment="CENTER_RIGHT" layoutX="168.0" layoutY="104.0" prefHeight="21.0" prefWidth="66.0" text="value" AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="340.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblK" alignment="CENTER_RIGHT" layoutX="168.0" layoutY="122.0" prefHeight="21.0" prefWidth="66.0" text="value" AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="340.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="564.0" layoutX="5.5" layoutY="63.5" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="63.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="86.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="86.0" />
+      <Label layoutX="66.0" layoutY="66.0" text="TEST" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="194.0" layoutY="66.0" text="RESULT" />
+      <Label layoutX="280.0" layoutY="66.0" text="UNITS" />
+      <Label layoutX="352.0" layoutY="66.0" text="REF. RANGE" />
+      <Label layoutX="483.0" layoutY="66.0" text="FLAG" />
+      <Label fx:id="flagNa" layoutX="484.0" layoutY="105.0" text="flag1">
+         <font>
+            <Font name="Verdana Bold Italic" size="12.0" />
+         </font></Label>
+      <Label fx:id="flagK" layoutX="484.0" layoutY="123.0" text="flag2">
+         <font>
+            <Font name="Verdana Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="176.0" prefHeight="17.0" prefWidth="456.0" text="TEST IS DONE BY FULLY AUTOMATED ELECTROLYTE MACHINE (ISE METHOD)" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+   </children>
+</AnchorPane>

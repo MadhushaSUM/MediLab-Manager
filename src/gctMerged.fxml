@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ESR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="50.0" layoutY="110.0" text="GLUCOSE CHALLENGE TEST&#10;(After 2nd hour of 75g glucose dose) " AnchorPane.leftAnchor="50.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblGCT" alignment="CENTER_RIGHT" layoutX="300.0" layoutY="107.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="220.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="402.0" layoutY="108.0" text="mg/dl" AnchorPane.leftAnchor="402.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="73.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="73.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="97.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="97.0" />
+      <Label layoutX="56.0" layoutY="77.0" text="TEST" />
+      <Label layoutX="314.0" layoutY="77.0" text="RESULT" />
+      <Label layoutX="400.0" layoutY="77.0" text="UNITS" />
+      <Label layoutX="483.0" layoutY="77.0" text="FLAG" />
+      <Label fx:id="flag1" layoutX="488.0" layoutY="108.0" text="flag" />
+      <Label layoutX="270.0" layoutY="47.0" prefHeight="20.0" prefWidth="33.0" text="GCT" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="271.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

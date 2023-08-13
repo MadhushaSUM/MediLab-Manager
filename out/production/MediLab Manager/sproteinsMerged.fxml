@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="SPROTEINS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="564.0" layoutX="5.5" layoutY="60.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="60.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="83.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="83.0" />
+      <Label layoutX="34.0" layoutY="64.0" text="TEST" AnchorPane.leftAnchor="34.0" />
+      <Label layoutX="253.0" layoutY="64.0" text="RESULT" AnchorPane.rightAnchor="280.0" />
+      <Label layoutX="325.0" layoutY="64.0" text="UNITS" AnchorPane.leftAnchor="320.0" />
+      <Label layoutX="513.0" layoutY="64.0" text="FLAG" AnchorPane.rightAnchor="20.0" />
+      <Label alignment="CENTER" layoutX="390.0" layoutY="64.0" text="REF. RANGES" AnchorPane.leftAnchor="390.0" AnchorPane.rightAnchor="110.0" />
+      <Label layoutX="201.0" layoutY="17.0" prefHeight="20.0" prefWidth="172.0" text="SERUM PROTEIN PROFILE" AnchorPane.leftAnchor="201.0" AnchorPane.rightAnchor="201.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

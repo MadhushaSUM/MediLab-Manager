@@ -1,0 +1,12 @@
+420.0
+767.0
+null
+null
+false
+false
+false
+Arial
+10.0
+TOP_LEFT
+MLT info.line 03
+false

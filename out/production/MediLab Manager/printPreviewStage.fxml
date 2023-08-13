@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="670.0" styleClass="mainScene" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="previewController">
+   <children>
+      <Button fx:id="btnPrint" layoutX="14.0" layoutY="461.0" mnemonicParsing="false" onAction="#print" prefHeight="25.0" prefWidth="68.0" text="Print" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" />
+      <CheckBox fx:id="isTopSpace" layoutX="5.0" layoutY="116.0" mnemonicParsing="false" text="Add Space to Top" AnchorPane.leftAnchor="5.0" />
+      <RadioButton fx:id="spBlood" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Specimen of Blood" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <RadioButton fx:id="spUrine" layoutX="5.0" layoutY="28.0" mnemonicParsing="false" text="Specimen of Urine" AnchorPane.topAnchor="25.0" />
+      <RadioButton fx:id="spStool" layoutX="6.0" layoutY="53.0" mnemonicParsing="false" text="Specimen of Stool" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="45.0" />
+      <Label layoutX="5.0" layoutY="145.0" text="Order" AnchorPane.leftAnchor="5.0" />
+      <ListView fx:id="orderList" layoutX="5.0" layoutY="162.0" prefHeight="223.0" prefWidth="200.0" AnchorPane.leftAnchor="5.0" />
+      <Button fx:id="btnUp" layoutX="215.0" layoutY="162.0" mnemonicParsing="false" onAction="#moveUp" prefHeight="66.0" prefWidth="83.0" text="Move Up" />
+      <Button fx:id="btnDown" layoutX="215.0" layoutY="319.0" mnemonicParsing="false" onAction="#moveDown" prefHeight="66.0" prefWidth="83.0" text="Move Down" />
+      <AnchorPane fx:id="preview" layoutX="307.0" layoutY="76.0" prefHeight="490.0" prefWidth="360.0" style="-fx-border-color: black;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <RadioButton fx:id="spNone" layoutX="7.0" layoutY="70.0" mnemonicParsing="false" text="None" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="65.0" />
+      <Button layoutX="215.0" layoutY="240.0" mnemonicParsing="false" onAction="#remove" prefHeight="66.0" prefWidth="83.0" text="Remove" />
+   </children>
+</AnchorPane>

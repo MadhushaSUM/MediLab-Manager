@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ESR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="50.0" layoutY="133.0" text="HEMOGLOBIN" AnchorPane.leftAnchor="50.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblHB" alignment="CENTER_RIGHT" layoutX="300.0" layoutY="130.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="220.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="131.0" text="g/dl" AnchorPane.leftAnchor="405.0" />
+      <Line endX="564.0" layoutX="50.5" layoutY="96.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="96.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="119.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="119.0" />
+      <Label layoutX="56.0" layoutY="99.0" text="TEST" />
+      <Label layoutX="314.0" layoutY="99.0" text="RESULT" />
+      <Label layoutX="400.0" layoutY="99.0" text="UNITS" />
+      <Label layoutX="483.0" layoutY="99.0" text="FLAG" />
+      <Label fx:id="flag1" layoutX="488.0" layoutY="131.0" text="flag" />
+      <Label layoutX="320.0" layoutY="172.0" text="Ref. Ranges : Male : 12.0 - 16.5 g/dl" />
+      <Label layoutX="392.0" layoutY="191.0" text="Female : 11.0 - 15.0 g/dl" />
+      <Label layoutX="239.0" layoutY="68.0" text="HEMOGLOBIN" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="240.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

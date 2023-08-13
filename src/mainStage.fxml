@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1000.0" prefHeight="700.0" prefWidth="1000.0" styleClass="mainScene" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerMain">
+   <children>
+      <MenuBar layoutX="14.0" layoutY="14.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Analysis">
+            <items>
+              <MenuItem fx:id="menuPatient" mnemonicParsing="false" onAction="#loadPatientAnalysis" text="Patient Analysis" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadTestAnalysis" text="Test Analysis" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadFinAnalysis" text="Financial Analysis" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Settings">
+              <items>
+                  <MenuItem mnemonicParsing="false" onAction="#refreshTestList" text="Refresh Test Que" />
+                <MenuItem mnemonicParsing="false" onAction="#loadTestPrice" text="Update Test Prices" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadTestSpecimen" text="Set Test Specimens" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadAdminCinfig" text="Administrator Config" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadReportBaseConfig" text="Change Reportbase" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadManageDoctors" text="Manage Doctors" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadManagePatients" text="Manage Patients" />
+                  <Menu mnemonicParsing="false" text="Display Age preferences">
+                    <items>
+                        <CheckMenuItem fx:id="menuCheckYears" mnemonicParsing="false" text="Years" />
+                        <CheckMenuItem fx:id="menuCheckMonths" mnemonicParsing="false" text="Months" />
+                        <CheckMenuItem fx:id="menuCheckDays" mnemonicParsing="false" text="Days" />
+                    </items>
+                  </Menu>
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#loadDevSupport" text="Contact Developer Assistance" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ScrollPane fx:id="editPane" layoutX="263.0" layoutY="118.0" prefHeight="570.0" prefWidth="730.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="263.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="122.0" />
+      <Button fx:id="btnLoadPrintReport" focusTraversable="false" layoutX="147.0" layoutY="32.0" mnemonicParsing="false" onAction="#loadPrintReport" prefHeight="72.0" prefWidth="127.0" styleClass="mainButton" AnchorPane.leftAnchor="147.0" AnchorPane.topAnchor="32.0">
+         <graphic>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="btnPrintReport" fitHeight="47.0" fitWidth="47.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@printer.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblLoadPrintReport" styleClass="mainBtnText" text="Report Issuing" />
+               </children>
+            </VBox>
+         </graphic></Button>
+      <Line fx:id="line01" endX="987.0" layoutX="5.5" layoutY="116.0" AnchorPane.leftAnchor="5.0" />
+      <ListView fx:id="testList" focusTraversable="false" layoutX="14.0" layoutY="135.0" prefHeight="554.0" prefWidth="227.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="135.0" />
+      <Label layoutX="14.0" layoutY="118.0" text="Test Que :" />
+      <Line fx:id="line02" endX="-100.0" endY="570.0" layoutX="353.0" layoutY="118.0" startX="-100.0" AnchorPane.topAnchor="115.0" />
+      <Button fx:id="btnInvoiceManager" focusTraversable="false" layoutX="284.0" layoutY="32.0" mnemonicParsing="false" onAction="#loadReceiptManager" prefHeight="72.0" prefWidth="127.0" styleClass="mainButton" AnchorPane.leftAnchor="284.0" AnchorPane.topAnchor="32.0">
+         <graphic>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="btnPrintReport1" fitHeight="47.0" fitWidth="47.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@printer.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblInvoiceManager" styleClass="mainBtnText" text="Invoice Manager" />
+               </children>
+            </VBox>
+         </graphic>
+      </Button>
+      <Button fx:id="btnEGFR" focusTraversable="false" layoutX="626.0" layoutY="32.0" mnemonicParsing="false" onAction="#loadEgfrCalculator" prefHeight="72.0" prefWidth="127.0" styleClass="mainButton" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="32.0">
+         <graphic>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="btnPrintReport11" fitHeight="47.0" fitWidth="47.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@calculator.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblEGFR" styleClass="mainBtnText" text="EGFR Calculator" />
+               </children>
+            </VBox>
+         </graphic>
+      </Button>
+      <Button fx:id="btnNewTest" focusTraversable="false" layoutX="10.0" layoutY="32.0" mnemonicParsing="false" onAction="#loadNewTest" prefHeight="72.0" prefWidth="127.0" styleClass="mainButton" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="32.0">
+         <graphic>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fx:id="btnPrintReport2" fitHeight="47.0" fitWidth="47.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@syringe.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblNewTest" styleClass="mainBtnText" text="New Test" />
+               </children>
+            </VBox>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

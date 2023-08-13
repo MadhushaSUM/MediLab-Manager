@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="SALKPHOSPHATASE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="65.0" layoutY="64.0" text="SERUM ALKALINE PHOSPHATASE&#10;(ALP)" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="64.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="408.0" layoutY="62.0" text="U/L." />
+      <Label fx:id="lblSAlkPhos" alignment="CENTER" layoutX="311.0" layoutY="60.0" prefHeight="21.0" prefWidth="69.0" text="value">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="564.0" layoutX="186.0" layoutY="39.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="20.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="43.5" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="43.0" />
+      <Label layoutX="65.0" layoutY="24.0" text="TEST" />
+      <Label layoutX="325.0" layoutY="24.0" text="RESULT" />
+      <Label layoutX="405.0" layoutY="24.0" text="UNIT" />
+      <Label layoutX="485.0" layoutY="24.0" text="FLAG" />
+      <Label fx:id="flag" layoutX="484.0" layoutY="62.0" text="flag">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="65.0" layoutY="117.0" text="Reference Ranges :" AnchorPane.leftAnchor="50.0" />
+      <Line endX="474.0" layoutX="56.0" layoutY="169.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="170.0" />
+      <Line endX="474.0" layoutX="66.0" layoutY="179.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="190.0" />
+      <Line endX="474.0" layoutX="76.0" layoutY="189.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="210.0" />
+      <Line endX="474.0" layoutX="86.0" layoutY="199.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="230.0" />
+      <Line endX="474.0" layoutX="96.0" layoutY="209.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="250.0" />
+      <Line endX="474.0" layoutX="106.0" layoutY="219.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="270.0" />
+      <Line endX="474.0" layoutX="116.0" layoutY="229.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="290.0" />
+      <Line endX="474.0" layoutX="126.0" layoutY="239.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="310.0" />
+      <Line endX="474.0" layoutX="136.0" layoutY="249.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="330.0" />
+      <Line endX="474.0" layoutX="146.0" layoutY="259.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="350.0" />
+      <Line endX="474.0" layoutX="156.0" layoutY="269.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="370.0" />
+      <Line endY="200.0" layoutX="251.0" layoutY="145.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="170.0" />
+      <Line endY="220.0" layoutX="261.0" layoutY="155.0" AnchorPane.leftAnchor="524.0" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="150.0" />
+      <Line endY="220.0" layoutX="261.0" layoutY="155.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="150.0" />
+      <Line endY="160.0" layoutX="271.0" layoutY="165.0" AnchorPane.leftAnchor="362.0" AnchorPane.topAnchor="170.0" />
+      <Line endX="324.0" layoutX="281.0" layoutY="175.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="150.0" />
+      <Label layoutX="114.0" layoutY="172.0" text="Age" />
+      <Label layoutX="61.0" layoutY="192.0" text="1 - 30 days" />
+      <Label layoutX="61.0" layoutY="212.0" text="1 month - 1 Years" />
+      <Label layoutX="61.0" layoutY="232.0" text="1 - 3 Years" />
+      <Label layoutX="61.0" layoutY="252.0" text="4 - 6 Years" />
+      <Label layoutX="61.0" layoutY="272.0" text="7 - 9 Years" />
+      <Label layoutX="61.0" layoutY="292.0" text="10 - 12 Years" />
+      <Label layoutX="61.0" layoutY="312.0" text="13 - 15 Years" />
+      <Label layoutX="61.0" layoutY="332.0" text="16 - 18 Years" />
+      <Label layoutX="61.0" layoutY="352.0" text="&gt; 18 Years" />
+      <Label layoutX="264.0" layoutY="172.0" text="Male" />
+      <Label layoutX="429.0" layoutY="172.0" text="Female" />
+      <Label layoutX="299.0" layoutY="152.0" text="Conventional Units U/L" />
+      <Label layoutX="254.0" layoutY="192.0" text="48 - 406" />
+      <Label layoutX="248.0" layoutY="212.0" text="124 - 341" />
+      <Label layoutX="248.0" layoutY="232.0" text="108 - 317" />
+      <Label layoutX="254.0" layoutY="252.0" text="96 - 297" />
+      <Label layoutX="254.0" layoutY="272.0" text="69 - 325" />
+      <Label layoutX="254.0" layoutY="292.0" text="51 - 332" />
+      <Label layoutX="254.0" layoutY="312.0" text="50 - 162" />
+      <Label layoutX="343.0" layoutY="332.0" text="47 - 119" />
+      <Label layoutX="343.0" layoutY="352.0" text="30 - 120" />
+      <Label layoutX="426.0" layoutY="192.0" text="75 - 316" />
+      <Label layoutX="426.0" layoutY="212.0" text="82 - 383" />
+      <Label layoutX="420.0" layoutY="232.0" text="104 - 345" />
+      <Label layoutX="426.0" layoutY="252.0" text="93 - 309" />
+      <Label layoutX="426.0" layoutY="272.0" text="86 - 315" />
+      <Label layoutX="426.0" layoutY="292.0" text="42 - 362" />
+      <Label layoutX="426.0" layoutY="312.0" text="74 - 390" />
+   </children>
+</AnchorPane>

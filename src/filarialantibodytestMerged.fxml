@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="50.0" layoutY="40.0" text="Specimen of Blood :" underline="true" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="125.0" text="1.   Wuchereria Bancrofti or Brugia Malayi" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="125.0" />
+      <Label layoutX="180.0" layoutY="142.0" text="Ig G Antibodies" AnchorPane.topAnchor="142.0" />
+      <Label layoutX="50.0" layoutY="185.0" text="2.   Wuchereria Bancrofti or Brugia Malayi" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="185.0" />
+      <Label fx:id="lblGAntibodies" layoutX="310.0" layoutY="130.0" prefHeight="21.0" prefWidth="117.0" text="value" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="130.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMAntibodies" layoutX="310.0" layoutY="192.0" prefHeight="21.0" prefWidth="117.0" text="value" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="192.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="69.0" text="Filarial Antibody Test" underline="true" AnchorPane.leftAnchor="50.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="201.0" text="Ig M Antibodies" AnchorPane.topAnchor="201.0" />
+      <Label layoutX="50.0" layoutY="232.0" text="Assay Mathod - Chromatographic immunoassay" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="270.0" layoutY="117.0" text="}" AnchorPane.leftAnchor="270.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="179.0" text="}" AnchorPane.leftAnchor="270.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblComments" alignment="TOP_LEFT" layoutX="50.0" layoutY="266.0" prefHeight="146.0" prefWidth="484.0" text="value" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

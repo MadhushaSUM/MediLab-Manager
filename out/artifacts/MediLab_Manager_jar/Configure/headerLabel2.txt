@@ -1,0 +1,12 @@
+5.0
+5.0
+null
+null
+true
+true
+false
+Arial
+10.0
+TOP_LEFT
+CONFIDENTIAL
+false

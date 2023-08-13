@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="315.0" layoutY="3.0" prefHeight="23.0" prefWidth="97.0" text="WBC / DC" AnchorPane.leftAnchor="315.0" AnchorPane.rightAnchor="316.0" AnchorPane.topAnchor="3.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="37.0" text="Name" />
+      <TextField fx:id="txtName" editable="false" focusTraversable="false" layoutX="75.0" layoutY="33.0" prefHeight="25.0" prefWidth="254.0" />
+      <Label layoutX="399.0" layoutY="37.0" text="Date" />
+      <TextField fx:id="txtDate" editable="false" focusTraversable="false" layoutX="462.0" layoutY="33.0" prefHeight="25.0" prefWidth="254.0" />
+      <Label layoutX="20.0" layoutY="92.0" styleClass="scalable" text="Total WBC Count" AnchorPane.leftAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="126.0" styleClass="scalable" text="Neutrophils" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="159.0" styleClass="scalable" text="Lymphocytes" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="192.0" styleClass="scalable" text="Eosinophils" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="225.0" styleClass="scalable" text="Monocytes" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="290.0" styleClass="scalable" text="Neutrophils#" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="323.0" styleClass="scalable" text="Lymphocytes#" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="357.0" styleClass="scalable" text="Eosinophils#" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="391.0" styleClass="scalable" text="Monocytes#" AnchorPane.leftAnchor="50.0" />
+      <Label layoutX="20.0" layoutY="441.0" styleClass="scalable" text="Comments :" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="441.0" />
+      <TextField fx:id="val0" layoutX="206.0" layoutY="88.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextField fx:id="val1" layoutX="206.0" layoutY="122.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextField fx:id="val2" layoutX="206.0" layoutY="155.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextField fx:id="val3" layoutX="206.0" layoutY="188.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextField fx:id="val4" layoutX="206.0" layoutY="221.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextField fx:id="val6" focusTraversable="false" layoutX="206.0" layoutY="285.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextField fx:id="val7" focusTraversable="false" layoutX="206.0" layoutY="318.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextField fx:id="val8" focusTraversable="false" layoutX="206.0" layoutY="352.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextField fx:id="val9" focusTraversable="false" layoutX="206.0" layoutY="386.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <TextArea fx:id="vala0" focusTraversable="false" layoutX="50.0" layoutY="462.0" prefHeight="65.0" prefWidth="628.0" styleClass="scalable" wrapText="true" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="462.0" />
+      <Button fx:id="btnSave" layoutX="635.0" layoutY="533.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" text="Save" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+      <Label layoutX="341.0" layoutY="92.0" styleClass="scalable" text="10  /µL" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="368.0" layoutY="126.0" styleClass="scalable" text="\%" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="368.0" layoutY="160.0" styleClass="scalable" text="\%" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="368.0" layoutY="192.0" styleClass="scalable" text="\%" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="368.0" layoutY="225.0" styleClass="scalable" text="\%" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="356.0" layoutY="89.0" styleClass="scalable" text="3">
+         <font>
+            <Font name="Courier New Bold" size="8.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="valc0" editable="true" focusTraversable="false" layoutX="397.0" layoutY="88.0" prefHeight="25.0" prefWidth="86.0" styleClass="scalable" />
+      <ComboBox fx:id="valc1" editable="true" focusTraversable="false" layoutX="397.0" layoutY="122.0" prefHeight="25.0" prefWidth="86.0" styleClass="scalable" />
+      <ComboBox fx:id="valc2" editable="true" focusTraversable="false" layoutX="397.0" layoutY="155.0" prefHeight="25.0" prefWidth="86.0" styleClass="scalable" />
+      <ComboBox fx:id="valc3" editable="true" focusTraversable="false" layoutX="397.0" layoutY="188.0" prefHeight="25.0" prefWidth="86.0" styleClass="scalable" />
+      <ComboBox fx:id="valc4" editable="true" focusTraversable="false" layoutX="397.0" layoutY="221.0" prefHeight="25.0" prefWidth="86.0" styleClass="scalable" />
+      <Label layoutX="537.0" layoutY="92.0" styleClass="scalable" text="(4.00 - 10.00)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="126.0" styleClass="scalable" text="(50.0 - 70.0)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="160.0" styleClass="scalable" text="(15 - 45)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="192.0" styleClass="scalable" text="(0.5 - 5.0)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="225.0" styleClass="scalable" text="(3.0 - 12.0)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="289.0" styleClass="scalable" text="(2.00 - 7.00)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="323.0" styleClass="scalable" text="(0.80 - 4.00)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="357.0" styleClass="scalable" text="(0.02 - 0.50)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="390.0" styleClass="scalable" text="(0.12 - 1.20)" AnchorPane.leftAnchor="537.0" />
+      <Label layoutX="537.0" layoutY="67.0" text="References (Adults)">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="427.0" layoutY="67.0" text="Flag">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="336.0" layoutY="67.0" text="Units">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="229.0" layoutY="67.0" text="Results">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="49.0" layoutY="67.0" text="Tests">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="341.0" layoutY="289.0" styleClass="scalable" text="10  /µL" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="355.0" layoutY="285.0" styleClass="scalable" text="3">
+         <font>
+            <Font name="Courier New Bold" size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="321.0" styleClass="scalable" text="10  /µL" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="355.0" layoutY="317.0" styleClass="scalable" text="3">
+         <font>
+            <Font name="Courier New Bold" size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="357.0" styleClass="scalable" text="10  /µL" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="341.0" layoutY="390.0" styleClass="scalable" text="10  /µL" AnchorPane.rightAnchor="350.0" />
+      <Label layoutX="355.0" layoutY="354.0" styleClass="scalable" text="3">
+         <font>
+            <Font name="Courier New Bold" size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="386.0" styleClass="scalable" text="3">
+         <font>
+            <Font name="Courier New Bold" size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="257.0" styleClass="scalable" text="Basophils" />
+      <TextField fx:id="val5" layoutX="206.0" layoutY="253.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <Label layoutX="368.0" layoutY="257.0" styleClass="scalable" text="\%" />
+      <ComboBox fx:id="valc5" editable="true" focusTraversable="false" layoutX="397.0" layoutY="253.0" prefHeight="25.0" prefWidth="86.0" styleClass="scalable" />
+      <Label layoutX="537.0" layoutY="257.0" styleClass="scalable" text="(3.0 - 12.0)" />
+      <Label layoutX="50.0" layoutY="424.0" styleClass="scalable" text="Monocytes#" />
+      <TextField fx:id="val10" focusTraversable="false" layoutX="206.0" layoutY="419.0" prefHeight="25.0" prefWidth="87.0" styleClass="scalable" />
+      <Label layoutX="537.0" layoutY="423.0" styleClass="scalable" text="(0.12 - 1.20)" />
+      <Label layoutX="341.0" layoutY="423.0" styleClass="scalable" text="10  /µL" />
+      <Label layoutX="355.0" layoutY="419.0" styleClass="scalable" text="3">
+         <font>
+            <Font name="Courier New Bold" size="8.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

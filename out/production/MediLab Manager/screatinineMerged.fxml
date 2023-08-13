@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ESR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="50.0" layoutY="101.0" text="SERUM CREATININE" AnchorPane.leftAnchor="5.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSCreatinine" alignment="CENTER_RIGHT" layoutX="220.0" layoutY="98.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="300.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="320.0" layoutY="99.0" text="mg/dl" AnchorPane.leftAnchor="320.0" />
+      <Line endX="564.0" layoutX="50.5" layoutY="64.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="64.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="87.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="87.0" />
+      <Label layoutX="56.0" layoutY="68.0" text="TEST" AnchorPane.leftAnchor="5.0" />
+      <Label layoutX="234.0" layoutY="68.0" text="RESULT" />
+      <Label layoutX="320.0" layoutY="68.0" text="UNITS" />
+      <Label layoutX="483.0" layoutY="68.0" text="FLAG" AnchorPane.rightAnchor="20.0" />
+      <Label fx:id="flag" layoutX="484.0" layoutY="99.0" text="flag" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="395.0" layoutY="100.0" text="0.6 - 1.6 mg/dl" />
+      <Label layoutX="398.0" layoutY="68.0" text="REF. RANGES" />
+      <Label layoutX="228.0" layoutY="6.0" prefHeight="20.0" prefWidth="117.0" text="Serum Creatinine" AnchorPane.leftAnchor="228.0" AnchorPane.rightAnchor="229.0" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

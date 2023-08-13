@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="198.0" layoutY="5.0" prefHeight="23.0" prefWidth="333.0" text="Liver Profile / Liver Function Tests" AnchorPane.leftAnchor="198.0" AnchorPane.rightAnchor="197.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="37.0" text="Name" />
+      <TextField fx:id="txtName" editable="false" focusTraversable="false" layoutX="75.0" layoutY="33.0" prefHeight="25.0" prefWidth="254.0" />
+      <Label layoutX="399.0" layoutY="37.0" text="Date" />
+      <TextField fx:id="txtDate" editable="false" focusTraversable="false" layoutX="462.0" layoutY="33.0" prefHeight="25.0" prefWidth="254.0" />
+      <TextField fx:id="val0" layoutX="230.0" layoutY="74.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.leftAnchor="230.0" />
+      <TextField fx:id="val1" layoutX="230.0" layoutY="108.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.leftAnchor="230.0" />
+      <TextField fx:id="val2" layoutX="230.0" layoutY="142.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.leftAnchor="230.0" />
+      <TextField fx:id="val3" layoutX="230.0" layoutY="176.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.leftAnchor="230.0" />
+      <TextField fx:id="val4" layoutX="230.0" layoutY="211.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.leftAnchor="230.0" />
+      <TextField fx:id="val5" layoutX="230.0" layoutY="247.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.leftAnchor="230.0" />
+      <TextField fx:id="val6" layoutX="230.0" layoutY="282.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.leftAnchor="230.0" />
+      <TextField fx:id="val7" layoutX="230.0" layoutY="317.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.rightAnchor="415.0" />
+      <TextField fx:id="val8" layoutX="230.0" layoutY="352.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" />
+      <TextField fx:id="val9" focusTraversable="false" layoutX="230.0" layoutY="388.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" />
+      <TextField fx:id="val10" layoutX="231.0" layoutY="424.0" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" AnchorPane.leftAnchor="231.0" />
+      <Label layoutX="100.0" layoutY="180.0" styleClass="scalable" text="Total Bilirubin" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="325.0" layoutY="180.0" styleClass="scalable" text="mg/dl" AnchorPane.rightAnchor="370.0" />
+      <Button fx:id="btnSave" layoutX="575.0" layoutY="532.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" styleClass="scalable" text="Save" AnchorPane.leftAnchor="575.0" />
+      <Label layoutX="100.0" layoutY="215.0" styleClass="scalable" text="Direct Bilirubin" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="100.0" layoutY="251.0" styleClass="scalable" text="Indirect Bilirubin" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="100.0" layoutY="78.0" styleClass="scalable" text="S.G.O.T." AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="100.0" layoutY="112.0" styleClass="scalable" text="S.G.P.T." AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="100.0" layoutY="146.0" styleClass="scalable" text="S. Alk. Phosphatase" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="100.0" layoutY="428.0" styleClass="scalable" text="Gamma GT" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="100.0" layoutY="286.0" styleClass="scalable" text="Total Proteins" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="325.0" layoutY="215.0" styleClass="scalable" text="mg/dl" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="325.0" layoutY="251.0" styleClass="scalable" text="mg/dl" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="339.0" layoutY="78.0" styleClass="scalable" text="U/L" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="339.0" layoutY="112.0" styleClass="scalable" text="U/L" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="339.0" layoutY="146.0" styleClass="scalable" text="U/L" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="339.0" layoutY="428.0" styleClass="scalable" text="U/L" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="331.0" layoutY="286.0" styleClass="scalable" text="G/DL" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="100.0" layoutY="321.0" styleClass="scalable" text="Albumin" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="100.0" layoutY="356.0" styleClass="scalable" text="Globulin" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="100.0" layoutY="392.0" styleClass="scalable" text="Alb. Glob. Ratio (A/G)" AnchorPane.leftAnchor="100.0" />
+      <Label layoutX="331.0" layoutY="321.0" styleClass="scalable" text="G/DL" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="331.0" layoutY="356.0" styleClass="scalable" text="G/DL" AnchorPane.rightAnchor="370.0" />
+      <Label layoutX="53.0" layoutY="471.0" styleClass="scalable" text="Comments :" />
+      <TextArea fx:id="vala0" focusTraversable="false" layoutX="122.0" layoutY="471.0" prefHeight="82.0" prefWidth="441.0" styleClass="scalable">
+         <font>
+            <Font name="Courier New Bold" size="12.0" />
+         </font>
+      </TextArea>
+      <ComboBox fx:id="valc0" editable="true" focusTraversable="false" layoutX="399.0" layoutY="74.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc1" editable="true" focusTraversable="false" layoutX="399.0" layoutY="108.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc2" editable="true" focusTraversable="false" layoutX="399.0" layoutY="142.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc3" editable="true" focusTraversable="false" layoutX="399.0" layoutY="176.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc4" editable="true" focusTraversable="false" layoutX="399.0" layoutY="211.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc5" editable="true" focusTraversable="false" layoutX="399.0" layoutY="247.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc6" editable="true" focusTraversable="false" layoutX="399.0" layoutY="282.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc7" editable="true" focusTraversable="false" layoutX="399.0" layoutY="317.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc8" editable="true" focusTraversable="false" layoutX="399.0" layoutY="352.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+      <ComboBox fx:id="valc9" editable="true" focusTraversable="false" layoutX="399.0" layoutY="424.0" prefHeight="25.0" prefWidth="144.0" styleClass="scalable" />
+   </children>
+</AnchorPane>

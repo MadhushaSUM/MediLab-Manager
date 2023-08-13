@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="490.0" minWidth="360.0" prefHeight="820.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="75.0" text="Name of Patient" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="75.0" />
+      <Label layoutX="428.0" layoutY="75.0" text=",   Gender" AnchorPane.leftAnchor="428.0" AnchorPane.topAnchor="75.0" />
+      <Label layoutX="343.0" layoutY="75.0" text="Age" AnchorPane.leftAnchor="343.0" AnchorPane.topAnchor="75.0" />
+      <Label layoutX="441.0" layoutY="98.0" text="Date" AnchorPane.topAnchor="98.0" />
+      <Label layoutX="14.0" layoutY="196.0" text="Req. by" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="98.0" />
+      <ImageView fitHeight="10.0" fitWidth="584.0" layoutX="1.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="139.0">
+         <image>
+            <Image url="@line.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblName" layoutX="146.0" layoutY="77.0" text="name" AnchorPane.topAnchor="77.0">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lblGender" layoutX="489.0" layoutY="77.0" text="gender">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lblReqDoc" layoutX="93.0" layoutY="100.0" text="req. doctor" AnchorPane.leftAnchor="93.0" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lblAge" layoutX="371.0" layoutY="77.0" text="age" AnchorPane.topAnchor="77.0">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lblDate" layoutX="477.0" layoutY="100.0" text="date" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Label>
+      <ImageView fitHeight="10.0" fitWidth="584.0" layoutX="1.0" layoutY="713.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0">
+         <image>
+            <Image url="@line.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="357.0" layoutY="698.0" prefHeight="17.0" prefWidth="186.0" text="Medical Laboratory Technologist" />
+      <Label layoutX="343.0" layoutY="685.0" prefHeight="17.0" prefWidth="223.0" text=".............................................................................." />
+      <VBox fx:id="mergeVbox" layoutX="5.0" layoutY="145.0" prefHeight="546.0" prefWidth="574.0" AnchorPane.bottomAnchor="129.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="145.0" />
+      <Label layoutX="5.0" layoutY="35.0" text="CONFIDENTIAL" underline="true" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="172.0" layoutY="46.0" text="MEDICAL LABORATORY REPORT" underline="true">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblReqDoc1" layoutX="103.0" layoutY="115.0" text="req. doctor line 2" AnchorPane.leftAnchor="163.0" AnchorPane.topAnchor="115.0">
+         <font>
+            <Font name="Calibri Bold" size="10.0" />
+         </font></Label>
+      <Label layoutX="128.0" layoutY="719.0" prefHeight="17.0" prefWidth="329.0" text="Medical Center - Medical Laboratory, 58/2, Hakmana Road, Matara.">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="736.0" prefHeight="17.0" prefWidth="204.0" text="T.P. 041-2240403, 077-5166500, 071-6821967">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="753.0" prefHeight="17.0" prefWidth="132.0" text="  arath      ettasinghe">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="765.0" prefHeight="17.0" prefWidth="117.0" text="M.I.A.M.L.S. - WHO. F">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="471.0" layoutY="765.0" prefHeight="17.0" prefWidth="24.0" text="ellow">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="777.0" prefHeight="17.0" prefWidth="151.0" text="Medical Laboratory Technologist">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="387.0" layoutY="789.0" prefHeight="17.0" prefWidth="44.0" text="S.L.M.C. R">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="427.0" layoutY="789.0" prefHeight="17.0" prefWidth="24.0" text="eg. ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="443.0" layoutY="789.0" prefHeight="17.0" prefWidth="8.0" text="N">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="450.0" layoutY="789.0" prefHeight="17.0" prefWidth="24.0" text="o.">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="461.0" layoutY="789.0" prefHeight="17.0" prefWidth="44.0" text="(PSM) 141">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="423.0" layoutY="753.0" prefHeight="17.0" prefWidth="15.0" text="W">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="753.0" prefHeight="17.0" prefWidth="15.0" text="S">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="482.0" layoutY="75.0" text=":">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="469.0" layoutY="98.0" text=":">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="365.0" layoutY="75.0" text=":">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="75.0" text=":">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblReference" layoutX="14.0" layoutY="696.0" prefHeight="21.0" prefWidth="66.0" text="value">
+         <font>
+            <Font name="Courier New Bold Italic" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

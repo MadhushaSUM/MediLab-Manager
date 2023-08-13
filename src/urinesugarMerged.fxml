@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="URINESUGAR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="49.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="70.0" layoutY="12.0" text="Urine Sugar/ Reducing Subs." underline="true" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="12.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUSugar" layoutX="248.0" layoutY="10.0" prefHeight="21.0" prefWidth="202.0" text="value">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="4.0" layoutX="60.0" layoutY="19.0" stroke="BLACK" strokeType="INSIDE" width="4.0" AnchorPane.leftAnchor="60.0" />
+   </children>
+</AnchorPane>

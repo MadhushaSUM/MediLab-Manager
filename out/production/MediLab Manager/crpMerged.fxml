@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RHE_FACTORS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblCRP" alignment="CENTER_RIGHT" layoutX="183.0" layoutY="101.0" prefHeight="21.0" prefWidth="101.0" text="value" AnchorPane.leftAnchor="183.0" AnchorPane.rightAnchor="290.0" AnchorPane.topAnchor="101.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="5.0" layoutY="103.0" text="C - Reactive Protein" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="103.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="564.0" layoutX="5.5" layoutY="68.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="68.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="93.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="93.0" />
+      <Label layoutX="5.0" layoutY="74.0" text="TEST" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="74.0" />
+      <Label layoutX="244.0" layoutY="74.0" text="RESULT" AnchorPane.rightAnchor="290.0" AnchorPane.topAnchor="74.0" />
+      <Label layoutX="351.0" layoutY="104.0" text="&lt; 06 mg/L" />
+      <Label layoutX="344.0" layoutY="74.0" text="REF. RANGES" />
+      <Label layoutX="208.0" layoutY="6.0" prefHeight="20.0" prefWidth="158.0" text="C - REACTIVE PROTEINS" AnchorPane.leftAnchor="208.0" AnchorPane.rightAnchor="208.0" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTitre" layoutX="5.0" layoutY="123.0" text="TITRE" AnchorPane.topAnchor="123.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTitreData" alignment="CENTER_RIGHT" layoutX="183.0" layoutY="122.0" prefHeight="21.0" prefWidth="101.0" text="value" AnchorPane.rightAnchor="290.0" AnchorPane.topAnchor="122.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

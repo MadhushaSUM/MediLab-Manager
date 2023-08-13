@@ -1,0 +1,36 @@
+.loginScene {
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-background-color: #64CCC5;
+}
+.loginButton {
+    -fx-background-color: #176B87;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+.login-text-field {
+    -fx-background-color: #DAFFFB;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.mainScene {
+    -fx-background-color: linear-gradient(to top, #64CCC5, #DAFFFB);
+}
+.mainButton {
+    -fx-background-color: #64CCC5;
+    -fx-font-weight: bold;
+}
+.mainBtnText {
+    -fx-text-fill: white;
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.menu-bar {
+    -fx-background-color: linear-gradient(to top, #DAFFFB, #64CCC5);
+}

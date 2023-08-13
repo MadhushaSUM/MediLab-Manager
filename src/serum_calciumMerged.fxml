@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RHE_FACTORS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="210.0" prefWidth="444.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblTCal" alignment="CENTER_RIGHT" layoutX="167.0" layoutY="117.0" text="value" textAlignment="RIGHT" AnchorPane.rightAnchor="240.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUnit" layoutX="236.0" layoutY="135.0" text="m.mol/L" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="135.0" />
+      <Label fx:id="lblRef" layoutX="369.0" layoutY="135.0" text="1.10 - 1.30" AnchorPane.leftAnchor="369.0" AnchorPane.topAnchor="135.0" />
+      <Label layoutX="50.0" layoutY="117.0" text="TOTAL CALCIUM" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="117.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="444.0" layoutX="50.5" layoutY="80.5" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="80.0" />
+      <Line endX="444.0" layoutX="0.5" layoutY="104.5" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="104.0" />
+      <Label layoutX="5.0" layoutY="84.0" text="TEST" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="84.0" />
+      <Label layoutX="164.0" layoutY="84.0" text="RESULT" AnchorPane.topAnchor="84.0" />
+      <Label layoutX="124.0" layoutY="65.0" prefHeight="17.0" prefWidth="179.0" text="SERUM CALCIUM  ( Ca    )" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="60.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="364.0" layoutY="84.0" text="REF. RANGE" />
+      <Label layoutX="244.0" layoutY="84.0" text="UNIT" />
+      <Label fx:id="lblICal" alignment="CENTER_RIGHT" layoutX="167.0" layoutY="137.0" text="value" textAlignment="RIGHT" AnchorPane.rightAnchor="240.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTitre" layoutX="5.0" layoutY="137.0" text="IONIZED CALCIUM">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUnit1" layoutX="236.0" layoutY="116.0" text="m.mol/L" />
+      <Label fx:id="lblRef1" layoutX="369.0" layoutY="116.0" text="2.20 - 2.60" />
+      <Label layoutX="163.0" layoutY="58.0" text="+">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="304.0" layoutY="84.0" text="FLAG" />
+      <Label fx:id="lblFlag0" alignment="CENTER_RIGHT" layoutX="302.0" layoutY="117.0" text="value" textAlignment="RIGHT">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag1" alignment="CENTER_RIGHT" layoutX="302.0" layoutY="137.0" text="value" textAlignment="RIGHT">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="5.0" layoutY="180.0" text="Test performed by Fully Automated Electrolyte Machine (ISE Method)" />
+   </children>
+</AnchorPane>

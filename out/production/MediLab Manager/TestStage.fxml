@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="AnchorpaneMain" maxHeight="1000.0" maxWidth="1186.0" minHeight="599.0" minWidth="600.0" prefHeight="602.0" prefWidth="1000.0" styleClass="mainScene" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TestController">
+   <children>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="14.0" styleClass="scalable" text="Name" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="27.0" styleClass="scalable" text="Gender" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="40.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="66.0" styleClass="scalable" text="Age" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="70.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="109.0" styleClass="scalable" text="Date of Birth" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="100.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="10.0" layoutY="131.0" styleClass="scalable" text="Contact Number" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="131.0" />
+      <Line endY="146.0" layoutX="143.0" layoutY="8.0" AnchorPane.leftAnchor="142.5" />
+      <TextField fx:id="txtName" editable="false" focusTraversable="false" layoutX="161.0" layoutY="8.0" prefHeight="25.0" prefWidth="288.0" styleClass="scalable" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="8.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtGender" editable="false" focusTraversable="false" layoutX="160.0" layoutY="38.0" prefHeight="25.0" prefWidth="288.0" styleClass="scalable" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="38.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtAge" editable="false" focusTraversable="false" layoutX="161.0" layoutY="68.0" prefHeight="25.0" prefWidth="288.0" styleClass="scalable" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="68.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtDOB" editable="false" focusTraversable="false" layoutX="161.0" layoutY="98.0" prefHeight="25.0" prefWidth="288.0" styleClass="scalable" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="98.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtConNumber" editable="false" focusTraversable="false" layoutX="160.0" layoutY="129.0" prefHeight="25.0" prefWidth="288.0" styleClass="scalable" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="552.0" AnchorPane.topAnchor="129.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextField>
+      <LineChart fx:id="lineChart" alternativeColumnFillVisible="true" layoutX="492.0" layoutY="20.0" prefHeight="559.0" prefWidth="497.0" styleClass="scalable" AnchorPane.leftAnchor="492.0" AnchorPane.topAnchor="20.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="btnApplyPrint" alignment="CENTER" layoutX="500.0" layoutY="542.0" mnemonicParsing="false" onAction="#saveAndPrintReceipt" prefHeight="53.0" prefWidth="88.0" styleClass="scalable" text="Save &amp; Print&#10;Reciept" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="598.0" />
+      <CheckBox fx:id="CheckMoney" layoutX="276.0" layoutY="563.0" mnemonicParsing="false" styleClass="scalable" AnchorPane.leftAnchor="276.0" />
+      <Label layoutX="10.0" layoutY="505.0" styleClass="scalable" text="Req. by" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="936.0" />
+      <Label layoutX="180.0" layoutY="563.0" styleClass="scalable" text="Money Collected" AnchorPane.rightAnchor="730.0" />
+      <TextField fx:id="txtReqDocSecondLine" layoutX="74.0" layoutY="511.0" prefHeight="25.0" prefWidth="430.0" visible="false" AnchorPane.rightAnchor="496.0" AnchorPane.topAnchor="511.0" />
+      <AnchorPane layoutX="20.0" layoutY="149.0" minHeight="0.0" minWidth="0.0" prefHeight="355.0" prefWidth="497.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="483.0">
+         <children>
+            <CheckBox fx:id="checkFBS" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#selectFBS" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="FBS" AnchorPane.leftAnchor="14.0" />
+            <CheckBox fx:id="checkUFR" layoutX="381.0" layoutY="4.0" mnemonicParsing="false" onAction="#selectUFR" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="UFR" />
+            <CheckBox fx:id="checkFBC" layoutX="14.0" layoutY="36.0" mnemonicParsing="false" onAction="#selectFBC" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="FBC" />
+            <CheckBox fx:id="checkLP" layoutX="131.0" layoutY="36.0" mnemonicParsing="false" onAction="#selectLP" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Lipid Profile" />
+            <CheckBox fx:id="checkSFR" layoutX="247.0" layoutY="102.0" mnemonicParsing="false" onAction="#selectSFR" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="SFR" AnchorPane.leftAnchor="247.0" />
+            <CheckBox fx:id="checkCRP" layoutX="131.0" layoutY="202.0" mnemonicParsing="false" onAction="#selectCRP" prefHeight="25.0" prefWidth="48.0" styleClass="scalable" text="CRP" AnchorPane.leftAnchor="131.0" AnchorPane.rightAnchor="318.0" />
+            <CheckBox fx:id="checkSCRE" layoutX="247.0" layoutY="32.0" mnemonicParsing="false" onAction="#selectSCre" prefHeight="33.0" prefWidth="130.0" styleClass="scalable" text="S. Creatinine" />
+            <CheckBox fx:id="checkGLYCO" layoutX="381.0" layoutY="36.0" mnemonicParsing="false" onAction="#selectGlyHemo" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Glyco.Hemoglobin" />
+            <CheckBox fx:id="checkRHF" layoutX="14.0" layoutY="69.0" mnemonicParsing="false" onAction="#selectRheFactors" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Rhe. Factors" />
+            <CheckBox fx:id="checkLFT" layoutX="131.0" layoutY="69.0" mnemonicParsing="false" onAction="#selectLFT" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="LFT" />
+            <CheckBox fx:id="checkBU" layoutX="247.0" layoutY="69.0" mnemonicParsing="false" onAction="#selectBlood_Urea" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Blood Urea" />
+            <CheckBox fx:id="checkSELEC" layoutX="381.0" layoutY="69.0" mnemonicParsing="false" onAction="#selectSElectro" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="S. Electrolytes" />
+            <CheckBox fx:id="checkUHCG" layoutX="14.0" layoutY="102.0" mnemonicParsing="false" onAction="#selectUrineHCG" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Urine H.C.G." />
+            <CheckBox fx:id="checkESR" layoutX="131.0" layoutY="102.0" mnemonicParsing="false" onAction="#selectESR" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="E.S.R." />
+            <CheckBox fx:id="checkPPBSALL" layoutX="131.0" layoutY="4.0" mnemonicParsing="false" onAction="#selectPPBSALL" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="PPBS(All)" />
+            <CheckBox fx:id="checkDENGUE" layoutX="381.0" layoutY="102.0" mnemonicParsing="false" onAction="#selectDengue" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Dengue Test" />
+            <CheckBox fx:id="checkFANTIBODY" layoutX="14.0" layoutY="136.0" mnemonicParsing="false" onAction="#selectFAntibody" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="F. Antibody Test" />
+            <CheckBox fx:id="checkMALBU" layoutX="14.0" layoutY="169.0" mnemonicParsing="false" onAction="#selectMicroalbumin" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Microalbumin" />
+            <CheckBox fx:id="checkSCHO" layoutX="14.0" layoutY="202.0" mnemonicParsing="false" onAction="#selectSCholesterol" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="S. Cholesterol" />
+            <CheckBox fx:id="checkSUACID" disable="true" layoutX="14.0" layoutY="236.0" mnemonicParsing="false" onAction="#selectSURICSPHOSPHORUS" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="S.Uric Acid &amp; S. phosphatase" />
+            <CheckBox fx:id="checkGCT" layoutX="131.0" layoutY="136.0" mnemonicParsing="false" onAction="#selectGCT" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Glucose Challenge Test" />
+            <CheckBox fx:id="checkHB" layoutX="247.0" layoutY="136.0" mnemonicParsing="false" onAction="#selectHB" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Hb" />
+            <CheckBox fx:id="checkHIV" layoutX="381.0" layoutY="136.0" mnemonicParsing="false" onAction="#selectHIV" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="HIV" />
+            <CheckBox fx:id="checkOTPT" layoutX="131.0" layoutY="169.0" mnemonicParsing="false" onAction="#selectOTPT" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="OT / PT" />
+            <CheckBox fx:id="checkPTINR" layoutX="247.0" layoutY="169.0" mnemonicParsing="false" onAction="#selectPTINR" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="PT / INR" />
+            <CheckBox fx:id="checkSALK" layoutX="381.0" layoutY="169.0" mnemonicParsing="false" onAction="#selectSAlkPhos" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="S. Alk. Phosphat." />
+            <CheckBox fx:id="checkSICAL" layoutX="287.0" layoutY="329.0" mnemonicParsing="false" onAction="#selectSIonizedCalcium" prefHeight="25.0" prefWidth="115.0" text="S. Ionized Calcium" visible="false" />
+            <CheckBox fx:id="checkSTCAL" layoutX="247.0" layoutY="202.0" mnemonicParsing="false" onAction="#selectSTotalCalcium" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="S. Total Calcium" />
+            <CheckBox fx:id="checkSPRO" layoutX="381.0" layoutY="202.0" mnemonicParsing="false" onAction="#selectSProteins" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="S. Proteins" />
+            <CheckBox fx:id="checkUS" layoutX="131.0" layoutY="236.0" mnemonicParsing="false" onAction="#selectUrineSugar" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Urine Sugar" />
+            <CheckBox fx:id="checkBILI" layoutX="247.0" layoutY="236.0" mnemonicParsing="false" onAction="#selectBilirubin" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Bilirubin" />
+            <CheckBox fx:id="checkEGFR" layoutX="381.0" layoutY="236.0" mnemonicParsing="false" onAction="#selectEGFR" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="EGFR" />
+            <CheckBox fx:id="checkCULTURE" layoutX="131.0" layoutY="269.0" mnemonicParsing="false" onAction="#selectCulture" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Culture A.B.S." />
+            <CheckBox fx:id="checkVDRL" layoutX="247.0" layoutY="269.0" mnemonicParsing="false" onAction="#selectVDRL" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="VDRL" />
+            <CheckBox fx:id="checkOralGlucose" layoutX="14.0" layoutY="269.0" mnemonicParsing="false" onAction="#selectOralGlucose" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Oral Glucose Tollerance" />
+            <CheckBox fx:id="checkRBS" layoutX="381.0" layoutY="269.0" mnemonicParsing="false" onAction="#selectRBS" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Random Blood Sugar" />
+            <CheckBox fx:id="checkWBCDC" layoutX="14.0" layoutY="301.0" mnemonicParsing="false" onAction="#selectWBCDC" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="WBC / DC" />
+            <CheckBox fx:id="checkGammaGT" layoutX="131.0" layoutY="301.0" mnemonicParsing="false" onAction="#selectGammaGT" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="GammaGT" />
+            <CheckBox fx:id="checkBSP" layoutX="247.0" layoutY="301.0" mnemonicParsing="false" onAction="#selectBSP" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Blood Sugar Profile" />
+            <CheckBox fx:id="checkBG" layoutX="381.0" layoutY="301.0" mnemonicParsing="false" onAction="#selectBG" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="Blood Group" />
+            <CheckBox fx:id="checkPPBS" layoutX="247.0" layoutY="4.0" mnemonicParsing="false" onAction="#selectPPBS" prefHeight="25.0" prefWidth="115.0" styleClass="scalable" text="PPBS" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnApply" alignment="CENTER" layoutX="410.0" layoutY="542.0" mnemonicParsing="false" onAction="#addRecord" prefHeight="53.0" prefWidth="88.0" styleClass="scalable" text="Save" textAlignment="CENTER" />
+      <TextField fx:id="txtAdvance" layoutX="74.0" layoutY="530.0" prefHeight="25.0" prefWidth="90.0" styleClass="scalable" text="0" />
+      <Label layoutX="4.0" layoutY="532.0" styleClass="scalable" text="Advance(Rs.) " AnchorPane.leftAnchor="6.0" />
+      <TextField fx:id="txtReqDocSecondLine1" layoutX="74.0" layoutY="501.0" prefHeight="25.0" prefWidth="430.0" visible="false" AnchorPane.leftAnchor="74.0" AnchorPane.rightAnchor="496.0" AnchorPane.topAnchor="501.0" />
+      <TextField fx:id="txtRef" layoutX="74.0" layoutY="559.0" prefHeight="25.0" prefWidth="90.0" styleClass="scalable" />
+      <Label layoutX="4.0" layoutY="561.0" styleClass="scalable" text="Ref. No. :" AnchorPane.leftAnchor="6.0" />
+   </children>
+</AnchorPane>

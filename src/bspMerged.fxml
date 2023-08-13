@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="FBS1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="304.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="220.0" layoutY="19.0" prefHeight="20.0" prefWidth="133.0" text="Blood Sugar Profile" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="221.0" AnchorPane.topAnchor="19.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="548.0" layoutX="104.5" layoutY="53.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="53.0" />
+      <Line endX="548.0" layoutX="105.0" layoutY="77.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="77.0" />
+      <Label layoutX="34.0" layoutY="58.0" text="TEST" />
+      <Label layoutX="172.0" layoutY="58.0" text="RESULT" />
+      <Label layoutX="260.0" layoutY="58.0" text="UNIT" />
+      <Label layoutX="339.0" layoutY="58.0" text="FLAG" />
+      <Label layoutX="14.0" layoutY="88.0" text="FBS" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="88.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="223.0" text="RBS (After Dinner)" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="223.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="122.0" text="PPBS (Post Breakfast)" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="122.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="157.0" text="RBS (After Lunch)" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="157.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="192.0" text="PPBS (Post Lunch)" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="192.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="254.0" text="PPBS (Post Dinner)" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="254.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFBS" alignment="CENTER" layoutX="137.0" layoutY="84.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="329.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRBSD" alignment="CENTER" layoutX="137.0" layoutY="219.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="329.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPPBSB" alignment="CENTER" layoutX="137.0" layoutY="118.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="329.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRBSL" alignment="CENTER" layoutX="137.0" layoutY="154.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="329.0" AnchorPane.topAnchor="154.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPPBSL" alignment="CENTER" layoutX="137.0" layoutY="188.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="329.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPPBSD" alignment="CENTER" layoutX="137.0" layoutY="250.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="329.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="86.0" text="mg/dl" />
+      <Label layoutX="260.0" layoutY="221.0" text="mg/dl" />
+      <Label layoutX="260.0" layoutY="120.0" text="mg/dl" />
+      <Label layoutX="260.0" layoutY="156.0" text="mg/dl" AnchorPane.topAnchor="156.0" />
+      <Label layoutX="260.0" layoutY="191.0" text="mg/dl" AnchorPane.topAnchor="191.0" />
+      <Label fx:id="flag1" alignment="CENTER_RIGHT" layoutX="304.0" layoutY="85.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="304.0" AnchorPane.rightAnchor="204.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="flag5" alignment="CENTER_RIGHT" layoutX="304.0" layoutY="220.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="304.0" AnchorPane.rightAnchor="204.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="flag2" alignment="CENTER_RIGHT" layoutX="304.0" layoutY="119.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="304.0" AnchorPane.rightAnchor="204.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="flag3" alignment="CENTER_RIGHT" layoutX="304.0" layoutY="155.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="304.0" AnchorPane.rightAnchor="204.0" AnchorPane.topAnchor="155.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="flag4" alignment="CENTER_RIGHT" layoutX="304.0" layoutY="190.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="304.0" AnchorPane.rightAnchor="204.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="flag6" alignment="CENTER_RIGHT" layoutX="304.0" layoutY="251.0" prefHeight="21.0" prefWidth="99.0" text="value" AnchorPane.leftAnchor="304.0" AnchorPane.rightAnchor="204.0">
+         <font>
+            <Font name="Courier New Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="548.0" layoutX="5.5" layoutY="111.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="111.0" />
+      <Line endX="548.0" layoutX="5.5" layoutY="146.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="145.0" />
+      <Line endX="548.0" layoutX="5.5" layoutY="181.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="179.0" />
+      <Line endX="548.0" layoutX="5.5" layoutY="212.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="213.0" />
+      <Line endX="548.0" layoutX="5.5" layoutY="243.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="247.0" />
+      <Line endX="548.0" layoutX="5.5" layoutY="273.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="281.0" />
+      <Line endY="228.0" layoutX="4.5" layoutY="377.5" opacity="0.4" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="53.0" />
+      <Label layoutX="398.0" layoutY="58.0" text="REFERANCE VALUES" AnchorPane.rightAnchor="68.0" />
+      <Label layoutX="399.0" layoutY="84.0" text="65 - 110 mg/dl" />
+      <Label layoutX="399.0" layoutY="118.0" text="Up to 140 mg/dl" AnchorPane.topAnchor="118.0" />
+      <Label layoutX="399.0" layoutY="191.0" text="Up to 140 mg/dl" AnchorPane.topAnchor="191.0" />
+      <Label layoutX="399.0" layoutY="253.0" text="Up to 140 mg/dl" AnchorPane.topAnchor="253.0" />
+      <Line endY="228.0" layoutX="553.5" layoutY="54.0" opacity="0.4" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="53.0" />
+      <Line endY="228.0" layoutX="150.5" layoutY="54.0" opacity="0.4" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="53.0" />
+      <Line endY="228.0" layoutX="240.5" layoutY="54.0" opacity="0.4" AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="53.0" />
+      <Line endY="228.0" layoutX="310.5" layoutY="54.0" opacity="0.4" AnchorPane.leftAnchor="310.0" AnchorPane.topAnchor="53.0" />
+      <Line endY="228.0" layoutX="390.5" layoutY="54.0" opacity="0.4" AnchorPane.leftAnchor="390.0" AnchorPane.topAnchor="53.0" />
+      <Label layoutX="263.0" layoutY="253.0" text="mg/dl" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="FBS1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="205.0" layoutY="15.0" prefHeight="20.0" prefWidth="163.0" text="FASTING BLOOD SUGAR" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="465.0" layoutX="104.5" layoutY="53.5" startX="-100.0" />
+      <Line endX="465.0" layoutX="105.0" layoutY="77.5" startX="-100.0" />
+      <Label layoutX="5.0" layoutY="58.0" text="TEST" AnchorPane.leftAnchor="5.0" />
+      <Label layoutX="208.0" layoutY="58.0" text="RESULT" />
+      <Label layoutX="294.0" layoutY="58.0" text="UNIT" />
+      <Label layoutX="372.0" layoutY="58.0" text="FLAG" />
+      <Label layoutX="5.0" layoutY="85.0" text="FASTING BLOOD SUGAR (FBS)" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="292.0" layoutY="84.0" text="mg/dl" AnchorPane.topAnchor="84.0" />
+      <Label fx:id="lblFBSmg" alignment="CENTER_RIGHT" layoutX="177.0" layoutY="85.0" prefHeight="15.0" prefWidth="70.0" text="value" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="85.0" prefHeight="15.0" prefWidth="70.0" text="value" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="21.0" text="- hours fasting..." visible="false" />
+      <Label fx:id="lblFastingHours" layoutX="10.0" layoutY="21.0" text="Hr" visible="false" AnchorPane.rightAnchor="551.0" />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="158.0" text="REFERENCE VALUES" underline="true" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label alignment="CENTER" layoutX="350.0" layoutY="158.0" text="COMMENTS" underline="true" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="20.0" />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="175.0" text="&lt; 70 mg/dl ( &lt; 3.9 m mol/L)" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label fx:id="lblFBSmmol" alignment="CENTER_RIGHT" layoutX="177.0" layoutY="111.0" prefHeight="15.0" prefWidth="70.0" text="value">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="112.0" text="m mol/L" />
+      <Label alignment="CENTER" layoutX="350.0" layoutY="175.0" text="Hypoglycemia" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="20.0" />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="195.0" text="70 - 100 mg/dl (3.9 - 5.6 m mol/L)" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label alignment="CENTER" layoutX="350.0" layoutY="195.0" text="Normal (Non - diabetic)" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="20.0" />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="215.0" text="100 - 125 mg/dl (5.6 - 6.9 m mol/L)" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label alignment="CENTER" layoutX="350.0" layoutY="215.0" text="Impaired glucose (Pre - diabetic)" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="20.0" />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="235.0" text="&gt; 125 mg/dl ( &gt; 6.9 m mol/L)" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label alignment="CENTER" layoutX="350.0" layoutY="235.0" text="Diabetic" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="20.0" />
+   </children>
+</AnchorPane>

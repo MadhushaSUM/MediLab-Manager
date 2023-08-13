@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="FBS1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="465.0" layoutX="104.5" layoutY="66.5" startX="-100.0" AnchorPane.topAnchor="66.0" />
+      <Line endX="465.0" layoutX="105.0" layoutY="90.5" startX="-100.0" AnchorPane.topAnchor="90.0" />
+      <Label layoutX="34.0" layoutY="71.0" text="TEST" AnchorPane.leftAnchor="34.0" />
+      <Label layoutX="214.0" layoutY="71.0" text="RESULT" AnchorPane.rightAnchor="320.0" />
+      <Label layoutX="275.0" layoutY="71.0" text="UNIT" AnchorPane.leftAnchor="275.0" />
+      <Label layoutX="526.0" layoutY="71.0" text="FLAG" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="370.0" layoutY="71.0" text="REF. RANGE" AnchorPane.leftAnchor="370.0" />
+      <Label fx:id="lblTitle" alignment="CENTER" layoutX="180.0" layoutY="36.0" prefHeight="20.0" prefWidth="189.0" text="BILIRUBIN" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="36.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

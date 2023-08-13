@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="300.0" styleClass="mainScene" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EgfrCalculatorController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="340.0" layoutX="40.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="290.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <TextField fx:id="txtCreatinineValue" alignment="TOP_RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="66.0" prefWidth="270.0" promptText="Creatinine Value in mg/dl" styleClass="scalable" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtAgeValue" alignment="TOP_RIGHT" layoutX="15.0" layoutY="89.0" prefHeight="66.0" prefWidth="270.0" promptText="Age in Years" styleClass="scalable" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font></TextField>
+      <CheckBox fx:id="isFemale" layoutX="15.0" layoutY="173.0" mnemonicParsing="false" styleClass="scalable" text="Check if Female" />
+      <CheckBox fx:id="isBlack" layoutX="15.0" layoutY="201.0" mnemonicParsing="false" styleClass="scalable" text="Check if Black" />
+      <Button fx:id="btnCalculate" layoutX="80.0" layoutY="232.0" mnemonicParsing="false" onAction="#calculate" styleClass="scalable" text="Calculate" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="155.0" />
+      <TextField fx:id="txtEgfrValue" alignment="CENTER" editable="false" focusTraversable="false" layoutX="15.0" layoutY="195.0" prefHeight="66.0" prefWidth="270.0" styleClass="scalable" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font></TextField>
+      <Button fx:id="btnCalculate1" layoutX="155.0" layoutY="232.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="65.0" styleClass="scalable" text="Reset" AnchorPane.rightAnchor="80.0" />
+   </children>
+</AnchorPane>

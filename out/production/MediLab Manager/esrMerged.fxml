@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ESR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="5.0" layoutY="97.0" text="ERYTHROCYTE SEDIMENTATION RATE" AnchorPane.leftAnchor="5.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblESR1ST" alignment="CENTER_RIGHT" layoutX="300.0" layoutY="94.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="220.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="384.0" layoutY="95.0" text="mm/ 1   hour" AnchorPane.leftAnchor="384.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="60.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="60.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="83.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="83.0" />
+      <Label layoutX="5.0" layoutY="63.0" text="TEST" AnchorPane.leftAnchor="5.0" />
+      <Label layoutX="314.0" layoutY="63.0" text="RESULT" />
+      <Label layoutX="400.0" layoutY="63.0" text="UNITS" />
+      <Label layoutX="541.0" layoutY="63.0" text="FLAG" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="419.0" layoutY="90.0" text="st">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="flag1" layoutX="549.0" layoutY="95.0" text="flag" AnchorPane.rightAnchor="20.0" />
+      <Label layoutX="273.0" layoutY="6.0" prefHeight="20.0" prefWidth="28.0" text="ESR" AnchorPane.leftAnchor="273.0" AnchorPane.rightAnchor="273.0" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

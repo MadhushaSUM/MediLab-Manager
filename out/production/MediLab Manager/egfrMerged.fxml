@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="EGFR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="71.0" layoutY="127.0" text="e - GFR" AnchorPane.leftAnchor="71.0" AnchorPane.topAnchor="127.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="295.0" text="eGFR estimated at the rate of 60 - 89 ml/min/1.73 m   does not indicate CKD. " AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="70.0" />
+      <Label layoutX="275.0" layoutY="128.0" text="ml/min/1.73m" AnchorPane.topAnchor="128.0" />
+      <Label layoutX="351.0" layoutY="125.0" text="2">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="205.0" text="05 stages of CKD." underline="true" AnchorPane.leftAnchor="70.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="235.0" text="Stage 01 : 90 ml/min/1.73 m    or more" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="235.0" />
+      <Label layoutX="219.0" layoutY="232.0" text="2">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="235.0" text="Healthy kidneys or" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="235.0" />
+      <Label layoutX="300.0" layoutY="250.0" text="Kidney damage with normal or high GFR." AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="250.0" />
+      <Label layoutX="70.0" layoutY="268.0" text="Stage 02 : 60 - 89 ml/min/1.73 m" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="268.0" />
+      <Label layoutX="300.0" layoutY="268.0" text="Kidney damage with mild decrease in GFR." AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="268.0" />
+      <Label layoutX="245.0" layoutY="266.0" text="2">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="286.0" text="Stage 03 : 30 - 59 ml/min/1.73 m" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="286.0" />
+      <Label layoutX="245.0" layoutY="282.0" text="2">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="304.0" text="Stage 04 : 15 - 29 ml/min/1.73 m" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="304.0" />
+      <Label layoutX="245.0" layoutY="300.0" text="2">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="322.0" text="Stage 05 :  &lt; 15 ml/min/1.73 m" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="322.0" />
+      <Label layoutX="235.0" layoutY="320.0" text="2">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="286.0" text="Moderate decrease in GFR." AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="286.0" />
+      <Label layoutX="300.0" layoutY="304.0" text="Severe decrease in GFR." AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="304.0" />
+      <Label layoutX="300.0" layoutY="322.0" text="Kidney failure or on dialysis." AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="322.0" />
+      <Label layoutX="70.0" layoutY="310.0" text="unless other existing clinical/ laboratory evidences of CKD. are establized." AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="70.0" />
+      <Label fx:id="lblEGFR" alignment="CENTER" layoutX="177.0" layoutY="125.0" prefHeight="21.0" prefWidth="75.0" text="value">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="346.0" layoutY="291.0" text="2" AnchorPane.bottomAnchor="47.0">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Line endX="564.0" layoutX="5.5" layoutY="80.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="80.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="104.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="104.0" />
+      <Label layoutX="164.0" layoutY="39.0" text="Estimation Glomerular Filtration Rate" AnchorPane.leftAnchor="164.0" AnchorPane.rightAnchor="164.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="84.0" text="TEST" />
+      <Label layoutX="190.0" layoutY="84.0" text="RESULTS" />
+      <Label layoutX="300.0" layoutY="84.0" text="UNIT" />
+      <Label layoutX="70.0" layoutY="181.0" text="According to MDRD Formula" />
+   </children>
+</AnchorPane>

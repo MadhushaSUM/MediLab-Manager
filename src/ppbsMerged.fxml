@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="FBS1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="249.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="267.0" layoutY="45.0" prefHeight="20.0" prefWidth="40.0" text="PPBS" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="465.0" layoutX="104.5" layoutY="43.5" startX="-100.0" />
+      <Line endX="465.0" layoutX="105.0" layoutY="67.5" startX="-100.0" />
+      <Label layoutX="5.0" layoutY="48.0" text="TEST" AnchorPane.leftAnchor="5.0" />
+      <Label layoutX="258.0" layoutY="48.0" text="RESULT" AnchorPane.rightAnchor="276.0" />
+      <Label layoutX="327.0" layoutY="48.0" text="UNIT" />
+      <Label layoutX="391.0" layoutY="48.0" text="FLAG" AnchorPane.rightAnchor="155.0" />
+      <Label layoutX="5.0" layoutY="74.0" text="PPBS" AnchorPane.topAnchor="74.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="73.0" text="mg/dl" AnchorPane.topAnchor="73.0" />
+      <Label fx:id="lblValPPBSMG" layoutX="266.0" layoutY="75.0" text="value" AnchorPane.rightAnchor="276.0" AnchorPane.topAnchor="75.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFlag" layoutX="397.0" layoutY="75.0" text="flag" AnchorPane.rightAnchor="155.0" AnchorPane.topAnchor="75.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="97.0" text="m mol/L" />
+      <Label fx:id="lblValPPBSMMOL" layoutX="266.0" layoutY="99.0" text="value" AnchorPane.rightAnchor="276.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="25.0" layoutY="148.0" text="REFERENCE VALUES" underline="true" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label alignment="CENTER" layoutX="300.0" layoutY="148.0" text="COMMENTS" underline="true" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="20.0" />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="165.0" text="&lt; 140 mg/dl ( &lt; 7.7 m mol/L)" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label alignment="CENTER" layoutX="300.0" layoutY="165.0" text="Normal (Non - diabetic)" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="20.0" />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="185.0" text="140 - 180 mg/dl (7.7 - 9.9 m mol/L)" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label alignment="CENTER" layoutX="300.0" layoutY="185.0" text="Impaired glucose (Pre - diabetic)" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="20.0" />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="205.0" text="&gt; 180 mg/dl ( &gt; 9.9 m mol/L)" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="300.0" />
+      <Label alignment="CENTER" layoutX="300.0" layoutY="205.0" text="Diabetic" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="20.0" />
+      <Label fx:id="lblValTime" layoutX="45.0" layoutY="74.0" text="PPBS" AnchorPane.leftAnchor="45.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

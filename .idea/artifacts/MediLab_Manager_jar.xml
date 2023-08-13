@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MediLab Manager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MediLab_Manager_jar</output-path>
+    <root id="archive" name="MediLab Manager.jar">
+      <element id="module-output" name="MediLab Manager" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../derby.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

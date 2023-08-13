@@ -1,0 +1,12 @@
+30.0
+190.0
+null
+null
+false
+false
+false
+Arial
+12.0
+TOP_LEFT
+REFERRED BY
+true

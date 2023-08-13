@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="222.0" layoutY="6.0" prefHeight="20.0" prefWidth="140.0" text="URINE FULL REPORT" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="87.0" text="Colour" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="87.0" />
+      <Label layoutX="60.0" layoutY="103.0" text="Appearance" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="103.0" />
+      <Label layoutX="60.0" layoutY="145.0" text="Reaction (pH)" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="145.0" />
+      <Label layoutX="60.0" layoutY="161.0" text="Albumin (Protein)" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="161.0" />
+      <Label layoutX="60.0" layoutY="177.0" text="Reducing Substances (Sugar)" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="177.0" />
+      <Label layoutX="60.0" layoutY="194.0" text="Bile (Bilirubin)" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="194.0" />
+      <Label layoutX="60.0" layoutY="210.0" text="Urobilinogen" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="210.0" />
+      <Label layoutX="60.0" layoutY="253.0" text="Pus Cells" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="253.0" />
+      <Label layoutX="60.0" layoutY="268.0" text="Red Cells" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="268.0" />
+      <Label layoutX="60.0" layoutY="283.0" text="Epithelial Cells" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="283.0" />
+      <Label layoutX="60.0" layoutY="300.0" text="Casts" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="300.0" />
+      <Label layoutX="60.0" layoutY="315.0" text="Crystals" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="315.0" />
+      <Label layoutX="60.0" layoutY="331.0" text="Organisms" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="331.0" />
+      <Label layoutX="236.0" layoutY="87.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="87.0" />
+      <Label layoutX="236.0" layoutY="103.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="103.0" />
+      <Label layoutX="236.0" layoutY="145.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="145.0" />
+      <Label layoutX="236.0" layoutY="161.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="161.0" />
+      <Label layoutX="236.0" layoutY="177.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="177.0" />
+      <Label layoutX="236.0" layoutY="194.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="194.0" />
+      <Label layoutX="236.0" layoutY="210.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="210.0" />
+      <Label layoutX="236.0" layoutY="253.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="253.0" />
+      <Label layoutX="236.0" layoutY="268.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="268.0" />
+      <Label layoutX="236.0" layoutY="283.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="283.0" />
+      <Label layoutX="236.0" layoutY="300.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="300.0" />
+      <Label layoutX="236.0" layoutY="333.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="333.0" />
+      <Label layoutX="236.0" layoutY="316.0" text=":" AnchorPane.leftAnchor="236.0" AnchorPane.topAnchor="316.0" />
+      <Label fx:id="lblColour" layoutX="246.0" layoutY="85.0" prefHeight="21.0" prefWidth="318.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAppear" layoutX="246.0" layoutY="101.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="101.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblReaction" layoutX="246.0" layoutY="143.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="143.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAlbu" layoutX="246.0" layoutY="159.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="159.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRedu" layoutX="246.0" layoutY="175.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="175.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBile" layoutX="246.0" layoutY="192.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="192.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUro" layoutX="246.0" layoutY="208.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="208.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPusC" layoutX="246.0" layoutY="251.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="251.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRedC" layoutX="246.0" layoutY="266.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="266.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblEpiC" layoutX="246.0" layoutY="281.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="281.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCasts" alignment="TOP_LEFT" layoutX="246.0" layoutY="301.0" prefHeight="21.0" prefWidth="324.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="301.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCryst" layoutX="246.0" layoutY="313.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="313.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblOrga" layoutX="246.0" layoutY="330.0" prefHeight="21.0" prefWidth="54.0" text="value" AnchorPane.leftAnchor="246.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="330.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="465.0" layoutX="104.5" layoutY="33.5" startX="-100.0" />
+      <Line endX="465.0" layoutX="105.0" layoutY="57.5" startX="-100.0" AnchorPane.topAnchor="57.0" />
+      <Label layoutX="34.0" layoutY="38.0" text="TEST" />
+      <Label layoutX="258.0" layoutY="38.0" text="RESULT" />
+      <Label layoutX="35.0" layoutY="234.0" text="CENTRIFUGED DEPOSITS" underline="true" AnchorPane.topAnchor="234.0" />
+      <Label layoutX="330.0" layoutY="180.0" text="KETONE BODIES (Action)" visible="false" AnchorPane.topAnchor="180.0" />
+      <Label layoutX="506.0" layoutY="180.0" text=":" visible="false" AnchorPane.topAnchor="180.0" />
+      <Label fx:id="lblKetoneBodies" layoutX="516.0" layoutY="178.0" prefHeight="21.0" prefWidth="54.0" text="value" visible="false" AnchorPane.topAnchor="178.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="300.0" text="Renal/Ploigonal Epi. Cells" visible="false" />
+      <Label layoutX="236.0" layoutY="300.0" text=":" visible="false" />
+      <Label fx:id="lblRenalEpiC" layoutX="246.0" layoutY="298.0" prefHeight="21.0" prefWidth="54.0" text="value" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="347.0" text="OTHERS" visible="false" AnchorPane.topAnchor="347.0" />
+      <Label layoutX="236.0" layoutY="347.0" text=":" visible="false" AnchorPane.topAnchor="347.0" />
+      <Label fx:id="lblMThreads" layoutX="246.0" layoutY="346.0" prefHeight="21.0" prefWidth="54.0" text="value" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="370.0" layoutY="116.0" text="SPECIFIC GRAVITY" visible="false" AnchorPane.topAnchor="116.0" />
+      <Label layoutX="496.0" layoutY="116.0" text=":" visible="false" AnchorPane.topAnchor="116.0" />
+      <Label fx:id="lblSpecificGravity" layoutX="506.0" layoutY="114.0" prefHeight="21.0" prefWidth="54.0" text="value" visible="false" AnchorPane.topAnchor="114.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="127.0" text="CLINICAL CHEMISTRY" underline="true" />
+      <Label layoutX="35.0" layoutY="68.0" text="MACROSCOPY" underline="true" />
+   </children>
+</AnchorPane>

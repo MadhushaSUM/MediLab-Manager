@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ESR" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="169.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="70.0" layoutY="57.0" text="HIV 1 &amp; 2&#10;(COMBO RAPID TEST)" textAlignment="CENTER" AnchorPane.leftAnchor="50.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblHIV1" alignment="CENTER_RIGHT" layoutX="387.0" layoutY="94.0" prefHeight="21.0" prefWidth="88.0" text="value" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="133.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="564.0" layoutX="255.0" layoutY="34.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="20.0" />
+      <Line endX="564.0" layoutX="5.5" layoutY="44.5" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="44.0" />
+      <Label layoutX="56.0" layoutY="26.0" text="TEST" />
+      <Label layoutX="394.0" layoutY="24.0" text="RESULT" />
+      <Label layoutX="50.0" layoutY="97.0" text="HIV ANTIGEN" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="117.0" text="HIV ANTIBODY" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblHIV2" alignment="CENTER_RIGHT" layoutX="387.0" layoutY="114.0" prefHeight="21.0" prefWidth="88.0" text="value" textAlignment="CENTER" wrapText="true" AnchorPane.rightAnchor="133.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

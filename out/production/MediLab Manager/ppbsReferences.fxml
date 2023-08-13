@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="1.0" layoutY="-2.0" text="Reference Values" underline="true" />
+      <Label alignment="CENTER_RIGHT" layoutX="21.0" layoutY="16.0" prefHeight="17.0" prefWidth="103.0" text="&lt; 140 mg/dl" />
+      <Label alignment="CENTER_RIGHT" layoutX="21.0" layoutY="36.0" prefHeight="17.0" prefWidth="103.0" text="140 - 180 mg/dl" />
+      <Label alignment="CENTER_RIGHT" layoutX="21.0" layoutY="56.0" prefHeight="17.0" prefWidth="103.0" text="&gt; 180 mg/dl" />
+      <Label alignment="CENTER_RIGHT" layoutX="131.0" layoutY="16.0" prefHeight="17.0" prefWidth="118.0" text="( &lt; 7.7 m.mol/L)" />
+      <Label alignment="CENTER_RIGHT" layoutX="131.0" layoutY="36.0" prefHeight="17.0" prefWidth="118.0" text="(7.7 - 9.9 m.mol/L)" />
+      <Label alignment="CENTER_RIGHT" layoutX="131.0" layoutY="56.0" prefHeight="17.0" prefWidth="118.0" text="( &gt; 9.9 m.mol/L)" />
+      <Label layoutX="271.0" layoutY="16.0" prefHeight="17.0" prefWidth="131.0" text="Normal (Non Diabetic)" />
+      <Label layoutX="271.0" layoutY="36.0" prefHeight="17.0" prefWidth="183.0" text="Impaired Glucose (Pre - Diabetic)" />
+      <Label layoutX="271.0" layoutY="56.0" prefHeight="17.0" prefWidth="183.0" text="Diabetic" />
+      <Label layoutX="21.0" layoutY="86.0" prefHeight="72.0" prefWidth="411.0" text="Method : (GOD/POD)&#10;&#10;External Quality Control (EQC) certified by AGAPPE EQC Quality Control &#10;Programme" />
+   </children>
+</AnchorPane>
